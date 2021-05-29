@@ -12,10 +12,13 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(conferencesData) { conf in
-                VStack(alignment: .leading) {
-                    Text("\(conf.name)").font(.headline)
-                    Text("\(conf.location)").font(.subheadline)
-                }.navigationBarTitle("Conferences")
+                NavigationLink (destination: ConfDetailView(conf: conf)) {
+                    VStack(alignment: .leading) {
+                        Text("\(conf.name)").font(.headline)
+                        Text("\(conf.location)").font(.subheadline)
+                    }.navigationBarTitle("Conferences")
+                }
+
             }
         }
 

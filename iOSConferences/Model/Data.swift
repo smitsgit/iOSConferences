@@ -7,6 +7,14 @@ import Foundation
 
 let conferencesData: [Conference] = loadFile("confData.json")
 
+extension Date {
+    func dateToString() -> String {
+        let format = DateFormatter()
+        format.dateFormat = "MMM dd, yyyy"
+        return format.string(from: self)
+    }
+}
+
 func loadFile<T: Decodable>(_ filename: String) -> T {
     let data: Data
 

@@ -13,6 +13,7 @@
 		CA6EC967EB57C1C391F94471 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6EC63F928C4F1D77D94B6E /* Preview Assets.xcassets */; };
 		CA6ECA3135CB1C28CBC9DB94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EC18E1CD15CF7238448B6 /* ContentView.swift */; };
 		CA6ECB5C24A59C600F2A75CE /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EC3296590318FCBCE4D21 /* Conference.swift */; };
+		CA6ECCF8BAF5B9EA109C9734 /* ConfDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6ECBAFA2ACD6ADBD8A5982 /* ConfDetailView.swift */; };
 		CA6ECD03F484C9538D9979A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6ECEE71E723F8E671B3AE2 /* Assets.xcassets */; };
 		CA6ECD2C5CEA731DBBD7CC13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EC066D4C78EB9055DA977 /* SceneDelegate.swift */; };
 		CA6ECDC23D65B9E12D5F5164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6EC0F6D548A35356B7DF27 /* LaunchScreen.storyboard */; };
@@ -25,6 +26,7 @@
 		CA6EC63F928C4F1D77D94B6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA6EC677B184CAB62874BA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		CA6EC973B9A74407F9CC57D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA6ECBAFA2ACD6ADBD8A5982 /* ConfDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfDetailView.swift; sourceTree = "<group>"; };
 		CA6ECBD1A3840A3D49FE4E35 /* iOSConferences.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSConferences.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6ECE562B9DE1B3344BC678 /* confData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = confData.json; sourceTree = "<group>"; };
 		CA6ECEE71E723F8E671B3AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				CA6ECB53B48507B357030E7A /* Preview Content */,
 				CA6EC4F19C2628B724020A4D /* Resources */,
 				CA6ECEF6E0F70B6860052C8D /* Model */,
+				CA6ECBAFA2ACD6ADBD8A5982 /* ConfDetailView.swift */,
 			);
 			path = iOSConferences;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				CA6ECA3135CB1C28CBC9DB94 /* ContentView.swift in Sources */,
 				CA6EC67B1A69CDCB5FA32C06 /* Data.swift in Sources */,
 				CA6ECB5C24A59C600F2A75CE /* Conference.swift in Sources */,
+				CA6ECCF8BAF5B9EA109C9734 /* ConfDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
